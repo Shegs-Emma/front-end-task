@@ -1,13 +1,41 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.image {
+  width: 10%;
+  border-radius: 50%;
+  position: relative;
+  bottom: 1rem;
+}
+
+.icon_logoPay {
+  width: 90px;
+  height: 25px;
+}
+
+.icon_logoVisa {
+  width: 30px;
+  height: 30px;
+}
+
+.master {
+  width: 23rem;
+  height: 15rem;
+}
+
+.dot {
+  margin: auto 1rem auto 0;
+  width: 0.8rem;
+  color: #3f67e9;
 }
